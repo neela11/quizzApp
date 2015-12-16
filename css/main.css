@@ -39,8 +39,11 @@
 }
 .question1{
 	display: none;
-	width: 79em;
-	height:30em;
+	display: fixed;
+	/*width: 79em;
+	height:30em;*/
+	width: 100%;
+	height:100%;
 	margin-top: 4.5em;
 	margin-left: 2.5em;
 }
@@ -56,22 +59,43 @@
 	margin-left: 22em;
 	font-size: 2em;
 }
+.number{
+
+	margin-top: 12em;
+	margin-left: 22em;
+}
 #correct{
 	display: none;
+	display: fixed;
 background-color: yellow;
 font-size: 2em;
-width: 18em;
-height: 11em;
+/*width: 18em;
+height: 11em;*/
+width: 100%;
+height: 100%;
 text-align: center;
 margin-top: 4em;
 margin-left: 12em;
 }
 .wrong{
 	display: none;
+	display: fixed;
 background-color: yellow;
 font-size: 2em;
-width: 18em;
-height: 11em;
+/*width: 18em;
+height: 11em;*/
+width: 100%;
+height: 100%;
+text-align: center;
+margin-top: 4em;
+margin-left: 12em;
+}
+.finish{
+	display: none;
+	background-color: purple;
+	font-size: 2em;
+	width: 100%;
+height: 100%;
 text-align: center;
 margin-top: 4em;
 margin-left: 12em;
