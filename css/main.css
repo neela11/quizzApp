@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 .container{
 	width: 79em;
 	height: 38em;
@@ -66,29 +68,27 @@
 }
 #correct{
 	display: none;
-	display: fixed;
+	position: fixed;
 background-color: yellow;
 font-size: 2em;
-/*width: 18em;
-height: 11em;*/
-width: 100%;
-height: 100%;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
 text-align: center;
-margin-top: 4em;
-margin-left: 12em;
+vertical-align: middle;
 }
 .wrong{
 	display: none;
-	display: fixed;
+	position: fixed;
 background-color: yellow;
 font-size: 2em;
-/*width: 18em;
-height: 11em;*/
-width: 100%;
-height: 100%;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
 text-align: center;
-margin-top: 4em;
-margin-left: 12em;
+vertical-align: middle;
 }
 .finish{
 	display: none;
