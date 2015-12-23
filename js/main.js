@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	$(".start").click(function () {
-		$(".container").hide();
+		$(".info").hide();
 		$(".question1").fadeIn(1000);
 		display();	
         //currentQuestion++;

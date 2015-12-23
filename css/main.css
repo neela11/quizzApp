@@ -1,32 +1,14 @@
 
 body{
     margin: 0;
-    background-color: #98B0B8;
-}
-
-.container{
-	width: 79em;
-	height: 38em;
-	text-align: center;
-	margin-left: 3em;
-	margin-top: 3em;
-	background-color: white;
-	
-}
-.picture{
-	width: 69em;
-	height: 19em;
-	margin-left: 5em;
-	margin-top: 1.5em;
-	background-image: url("http://i1308.photobucket.com/albums/s611/neelambika11/Start_zpsxaxcwaxz.png");
+    background-image: url("http://i1308.photobucket.com/albums/s611/neelambika11/image_zpsltvdf5ep.jpg");
     background-repeat: no-repeat;
-    background-size: 69em 19em;
-
+    background-size:cover;
+    
 }
-
 .info{
-	height: 15em;
-	padding-top: 2em;
+	
+    text-align: center;
 }
 .start,#continueCorrect,#continueWrong,#retry{
 	margin-top: 1em;
@@ -44,7 +26,7 @@ body{
 	position: relative;
 }
 .question1{
-	background-color: #14617A;
+	background-color: #506DC7;
 	display: none;
 	position: fixed;
 	color: white;
@@ -84,18 +66,27 @@ margin-top: 4.5em;
 	margin-top: -1em;
 	margin-left: 65em;
 }
+#message1,#message2{
+	
+	width: 20em;
+	height: 12em;
+	
+	margin-top: 4em;
+	margin-left: 11em;
+}
+#message1{
+	background-color:#BAD1C0;
+}
+#message2{
+	background-color:#E0809B;
+}
 #correct{
 	display: none;
 	position: fixed;
-background-color: yellow;
+background-image: url("http://i1308.photobucket.com/albums/s611/neelambika11/image_zpsltvdf5ep.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 font-size: 2em;
-<<<<<<< HEAD
-left:0;
-right: 0;
-top:0;
-bottom: 0;
-/*width: 18em;
-height: 11em;*/
 width: 100%;
 height: 100%;
 
@@ -110,7 +101,9 @@ vertical-align: middle;
 .wrong{
 	display: none;
 	position: fixed;
-background-color: yellow;
+background-image: url("http://i1308.photobucket.com/albums/s611/neelambika11/image_zpsltvdf5ep.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 font-size: 2em;
 
 width: 100%;
