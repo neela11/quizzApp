@@ -21,12 +21,10 @@ $(document).ready(function () {
 			questionNum: 1
 		},
 		{
-			question: 'Exposure to sunlight helps a person improve his/her health because...',
-			choices: ['the ultraviolet rays convert skin oil into Vitamin D',
-				'resistance power increases', 'the infrared light kills bacteria in the body',
-				'improving their mood'],
-			picture: "http://i1308.photobucket.com/albums/s611/neelambika11/pic2_zpsld5xbzkq.png",
-			correctAnswer: 0,
+			question: 'How many keys are on a standard piano?',
+			choices: ['44',	'122', '66','88'],
+			picture: "http://i1308.photobucket.com/albums/s611/neelambika11/Screenshot_3_zpsnyjxe3ec.png",
+			correctAnswer: 3,
 			questionNum: 2
 		},
 		{
@@ -37,10 +35,10 @@ $(document).ready(function () {
 			questionNum: 3
 		},
 		{
-			question: 'Which country gave America the Statue of Liberty?',
-			choices: ['Germany', 'England', 'Canada', 'France'],
-			picture: "http://i1308.photobucket.com/albums/s611/neelambika11/pic4_zpsiijgvpm1.png",
-			correctAnswer: 3,
+			question: "What is the rhino's horn made of ? ",
+			choices: ['Hair', 'Skin', 'Bone', 'Something else'],
+			picture: "http://i1308.photobucket.com/albums/s611/neelambika11/Screenshot_2_zpsdthlqcfd.png",
+			correctAnswer: 0,
 			questionNum: 4
 		},
 		{
@@ -68,15 +66,16 @@ $(document).ready(function () {
 			quizQuestions[currentQuestion].choices[2] +
 			'<br><input type="radio" id="fourth" class="input" name="option"  value="four">' +
 			quizQuestions[currentQuestion].choices[3] +
-			'<br><button id="Submit1" type="button" >next</button>';
+			'<br><button id="Submit1" type="button" >Submit</button>';
 			$("#answer").html(newAnswer);
 
-        var newNumber = '<h1>You are on '+newCurrentQuestion+
-        ' question out of '+quizQuestions.length +' questions<br>'+
-        'Correctly:'+ correctAnswers +'| Incorrectly:' +incorrectAnswers+'</h1>';
+        var newNumber = 'Questions '+newCurrentQuestion+
+        '  of '+quizQuestions.length ;
+        
              $('.number').html(newNumber);
 
-         
+         var newNumber1 ='Correct:'+ correctAnswers +' , Incorrect:' +incorrectAnswers;
+             $('.number1').html(newNumber1);
 
 	}
 	/*Check for the answer equals to currectAnswer 

@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-=======
+
 body{
     margin: 0;
+    background-color: #98B0B8;
 }
->>>>>>> 5ab62e52a9fe44c87287cd94e8e08321d9540349
+
 .container{
 	width: 79em;
 	height: 38em;
@@ -16,7 +16,6 @@ body{
 .picture{
 	width: 69em;
 	height: 19em;
-	
 	margin-left: 5em;
 	margin-top: 1.5em;
 	background-image: url("http://i1308.photobucket.com/albums/s611/neelambika11/Start_zpsxaxcwaxz.png");
@@ -24,14 +23,15 @@ body{
     background-size: 69em 19em;
 
 }
+
 .info{
 	height: 15em;
 	padding-top: 2em;
 }
-.start,#continue,#Submit{
+.start,#continueCorrect,#continueWrong,#retry{
 	margin-top: 1em;
 	border-radius:18px;
-	border:1px solid #d02718;
+	/*border:1px solid #d02718;*/
 	color:black;
 	font-family:Arial;
 	font-size:17px;
@@ -39,35 +39,50 @@ body{
 	text-shadow:0px 1px 0px #810e05;
 }
 #question{
+	margin-top:3em;
 	float: right;
 	position: relative;
 }
 .question1{
+	background-color: #14617A;
 	display: none;
-	display: fixed;
-	/*width: 79em;
-	height:30em;*/
-	width: 100%;
-	height:100%;
-	margin-top: 4.5em;
-	margin-left: 2.5em;
+	position: fixed;
+	color: white;
+	width: 75em;
+	height:28em;
+	margin-left: 4em;
+margin-top: 4.5em;
+	
 }
-
+#pic1{
+	margin-top: -12.5em;
+}
 #question h1{
-	margin-right: 2em;
+	margin-right: .5em;
+	/*margin-top: 5em;*/
 }
 #answer{
 	
-	margin-top: -11em;
+	/*margin-top: -11em;*/
 	width: 15em;
 	height: 5em;
 	margin-left: 22em;
 	font-size: 2em;
 }
-.number{
+#submit{
+	float: right;
+	margin-top: -6em;
 
-	margin-top: 12em;
-	margin-left: 22em;
+}
+.number{
+   
+	margin-top: 1em;
+	margin-left: 38em;
+}
+.number1{
+
+	margin-top: -1em;
+	margin-left: 65em;
 }
 #correct{
 	display: none;
@@ -83,12 +98,12 @@ bottom: 0;
 height: 11em;*/
 width: 100%;
 height: 100%;
-=======
+
 left: 0;
 right: 0;
 bottom: 0;
 top: 0;
->>>>>>> 5ab62e52a9fe44c87287cd94e8e08321d9540349
+
 text-align: center;
 vertical-align: middle;
 }
@@ -97,36 +112,34 @@ vertical-align: middle;
 	position: fixed;
 background-color: yellow;
 font-size: 2em;
-<<<<<<< HEAD
-left:0;
-right: 0;
-top:0;
-bottom: 0;
-/*width: 18em;
-height: 11em;*/
+
 width: 100%;
 height: 100%;
-=======
+
 left: 0;
 right: 0;
 bottom: 0;
 top: 0;
->>>>>>> 5ab62e52a9fe44c87287cd94e8e08321d9540349
+
 text-align: center;
 vertical-align: middle;
 }
 .finish{
+	position: fixed;
 	display: none;
 	background-color: purple;
 	font-size: 2em;
 	width: 100%;
 height: 100%;
+
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
 text-align: center;
-margin-top: 4em;
-margin-left: 12em;
+
 }
 
 
 
 
-Status 
