@@ -117,7 +117,12 @@ $(document).ready(function () {
 	$("#continueWrong").click(function(){
 		nextQuestion();	
 	});
-
+    $("#Submit2").click(function(){
+    	alert("hi");
+     // $(".finish").hide();
+     // $(".info").show();
+    });
+    
 	function nextQuestion() {
 		$("#correct").fadeOut(1000);
 		$(".wrong").fadeOut(1000);
@@ -129,14 +134,16 @@ $(document).ready(function () {
 			display();
 		} else{
 			//alert("I am done with all he question");
-			 var finishMessage='Congratulations! You Completed your Quiz.<br>Correct Answers: '+
-             correctAnswers +'<br> Wrong Answers:'+ incorrectAnswers;   
+			 var finishMessage='<div id="finish1">'+'Congratulations! You Completed your Quiz.<br>Correct Answers: '+
+             correctAnswers +'<br> Wrong Answers:'+ incorrectAnswers+
+             '<br>If you want to retry Quiz again, just click below button.'
+             +'<br><button id="Submit2" type="button" >Retry</button>'+'</div>';   
              $(".finish").html(finishMessage);
 			 $(".finish").fadeIn(1000);
 		}
 		
 	}
-
+    
 
 });
 
