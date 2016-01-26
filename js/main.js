@@ -102,7 +102,7 @@ $(document).ready(function () {
 				}
 				else {
 					//If not - let's show wrong message
-					 
+					 $(".wrong #correctAnswer").html("Correct answer is:"+quizQuestions[currentQuestion].choices[quizQuestions[currentQuestion].correctAnswer]);
 					$(".wrong").fadeIn(1000);
 					incorrectAnswers++;
 				}
@@ -117,11 +117,8 @@ $(document).ready(function () {
 	$("#continueWrong").click(function(){
 		nextQuestion();	
 	});
-    $("#Submit2").click(function(){
-    	alert("hi");
-     // $(".finish").hide();
-     // $(".info").show();
-    });
+    
+
     
 	function nextQuestion() {
 		$("#correct").fadeOut(1000);
@@ -141,7 +138,13 @@ $(document).ready(function () {
              $(".finish").html(finishMessage);
 			 $(".finish").fadeIn(1000);
 		}
-		
+		$("#Submit2").on( "click", function() {
+    	// alert("hi");
+     $(".finish").hide();
+     $(".question1").hide();
+     $(".info").show();
+     
+    });
 	}
     
 
